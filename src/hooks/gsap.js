@@ -18,7 +18,7 @@ export const useGsapShtterUp = (item, delay = 0, trig) => {
 
         scrollTrigger: {
           trigger: trig.current,
-          toggleActions: "play reverse play reverse",
+          toggleActions: "play",
         },
       }
     );

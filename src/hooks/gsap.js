@@ -150,7 +150,7 @@ export const useGsapGatteryImage = (item) => {
         scrollTrigger: {
           trigger: el,
           start: "top center",
-          end: "bottom top",
+          end: "bottom center",
           toggleActions: "play reverse play reverse",
         },
       }

@@ -62,7 +62,7 @@ export const useGsapPhotoDropping = (arr) => {
         ease: Expo.easeInOut,
       }
     );
-  });
+  }, []);
 };
 
 export const useGsapPhotoLevitate = (arr, trig) => {
@@ -82,7 +82,7 @@ export const useGsapPhotoLevitate = (arr, trig) => {
         },
       }
     );
-  });
+  }, []);
 };
 
 export const useGsapfeaturLeftShutterUnveil = (item, trig) => {
@@ -223,7 +223,7 @@ export const useGsapFooterHeadline = (item, trig) => {
         },
       }
     );
-  });
+  }, []);
 };
 
 export const useGsapNotFoundHeadline = (item, vw = "-100vw") => {
@@ -280,5 +280,5 @@ export const useGsapBlogPhotoDropping = (arr) => {
         ease: Expo.easeInOut,
       }
     );
-  });
+  }, []);
 };

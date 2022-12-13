@@ -31,7 +31,11 @@ const Navbar = () => {
       </ul>
       <div className="logo" ref={logoRef}>
         <Link to="/">
-          <img src="https://svgshare.com/i/oiq.svg" height="50px" />
+          <img
+            src="https://svgshare.com/i/oiq.svg"
+            alt="aerocars"
+            height="50px"
+          />
         </Link>
       </div>
       <div className="favourite-link" ref={favRef}>

@@ -12,6 +12,7 @@ const Footer = () => {
       <img
         ref={footerHeadline}
         src="https://svgshare.com/i/oiq.svg"
+        ant="aerocars"
         height="70px"
       />
       <p>

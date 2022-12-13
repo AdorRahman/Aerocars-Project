@@ -2,7 +2,7 @@ import GalleryItem from "./GalleryItem";
 const images = [
   {
     id: 1,
-    src: "https://i.pinimg.com/564x/9c/58/61/9c586103b14bed2f4248f7844b8ebfd7.jpg",
+    src: "https://wallpaperaccess.com/full/48831.jpg",
     title: "air resistance aerodynamic Design",
     category: "optimizing AIR RESISTANCE",
   },
@@ -20,7 +20,7 @@ const images = [
   },
   {
     id: 4,
-    src: "https://i.pinimg.com/originals/c6/4c/23/c64c23a7497088a53aac2bd65ae26dc0.jpg",
+    src: "https://wallpaperaccess.com/full/145594.jpg",
     title: "Design Aerodynamics with Simulation",
     category: "AIR RESISTANCE Simulation",
   },

@@ -36,7 +36,7 @@ const Hero = () => {
           className="photo one"
           style={{
             backgroundImage:
-              'url("https://t4.ftcdn.net/jpg/03/51/09/33/360_F_351093317_HQ4V70sI66VD1bVikXTCZ7iWAGF8k2hr.jpg")',
+              'url("https://www.xautoworld.com/wp-content/uploads/2021/06/Rimac-Efficient-Aerodynamics.jpg")',
           }}
         ></div>
         <div

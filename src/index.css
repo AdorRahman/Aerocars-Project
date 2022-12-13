@@ -344,17 +344,17 @@ section {
   position: relative;
   cursor: pointer;
 }
-.flip > .front,
-.flip > .back {
+.flip .front,
+.flip .back {
   display: block;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition-duration: 0.5s;
   transition-property: transform, opacity;
 }
-.flip > .front {
+.flip .front {
   transform: rotateY(0deg);
 }
-.flip > .back {
+.flip .back {
   position: absolute;
   opacity: 0;
   top: 0px;
@@ -364,12 +364,12 @@ section {
   transform: rotateY(-180deg);
 }
 
-.flip:hover > .front {
+.flip:hover .front {
   transform: rotateY(180deg);
   color: rgba(0, 0, 0, 0) !important;
   text-shadow: none !important;
 }
-.flip:hover > .back {
+.flip:hover .back {
   opacity: 1;
   transform: rotateY(0deg);
 }
@@ -391,16 +391,16 @@ section {
   width: 100%;
   height: 100%;
 }
-.flip > .front {
+.flip .front {
   display: flex;
   justify-content: center;
   align-items: self-end;
 }
-.flip > .back {
+.flip .back {
   text-align: center;
 }
-.flip > .front,
-.flip > .back {
+.flip .front,
+.flip .back {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
@@ -419,8 +419,8 @@ section {
   backdrop-filter: blur(6px);
   border-radius: 6px;
 }
-.flip > .front p,
-.flip > .back p {
+.flip .front p,
+.flip .back p {
   font-size: 1rem;
   line-height: 160%;
   font-family: "Syncopate", sans-serif;
@@ -428,8 +428,8 @@ section {
   text-transform: lowercase !important;
   padding-bottom: 1rem;
 }
-.flip > .front span,
-.flip > .back span {
+.flip .front span,
+.flip .back span {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -439,8 +439,8 @@ section {
   color: var(--color-lighter);
 }
 
-.flip > .front h1,
-.flip > .back h1 {
+.flip .front h1,
+.flip .back h1 {
   line-height: 120%;
   padding-bottom: 1.2rem;
   font-family: "Poppins", sans-serif;

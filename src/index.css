@@ -438,21 +438,6 @@ section {
   }
 }
 @media only screen and (max-width: 1211px) {
-  .blog-image-5 {
-    grid-column: auto/span 3;
-    grid-row: auto/span 4;
-  }
-  .blog-image-3 {
-    grid-column: auto / span 3;
-    grid-row: auto / span 4;
-  }
-  .blog-image-7 {
-    grid-column: auto / span 6;
-    grid-row: auto / span 2;
-  }
-}
-
-@media only screen and (max-width: 989px) {
   .blog-image-1 {
     grid-column: auto / span 3;
     grid-row: auto / span 2;

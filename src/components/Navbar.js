@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useGsapDownStagger } from "../hooks/gsap";
+import aerocars from "../img/aerocars.svg";
 
 const Navbar = () => {
   const li1 = useRef(null);
@@ -31,11 +32,7 @@ const Navbar = () => {
       </ul>
       <div className="logo" ref={logoRef}>
         <Link to="/">
-          <img
-            src="https://svgshare.com/i/oiq.svg"
-            alt="aerocars"
-            height="50px"
-          />
+          <img src={aerocars} alt="aerocars" height="40px" />
         </Link>
       </div>
       <div className="favourite-link" ref={favRef}>

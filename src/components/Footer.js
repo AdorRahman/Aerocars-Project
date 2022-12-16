@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useGsapFooterHeadline } from "../hooks/gsap";
+import aerocars from "../img/aerocars.svg";
 
 const Footer = () => {
   const footerRef = useRef(null);
@@ -12,7 +13,7 @@ const Footer = () => {
       <img
         className="logo-footer"
         ref={footerHeadline}
-        src="https://svgshare.com/i/oiq.svg"
+        src={aerocars}
         alt="aerocars"
         height="55px"
       />

@@ -13,7 +13,7 @@ const Footer = () => {
         ref={footerHeadline}
         src="https://svgshare.com/i/oiq.svg"
         alt="aerocars"
-        height="70px"
+        height="60px"
       />
       <p>
         © {new Date().getFullYear()} All Rights Reserved | Powered by Aerocars

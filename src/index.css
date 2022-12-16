@@ -339,6 +339,84 @@ section {
 .blog-image-7 {
   grid-column: auto / span 6;
 }
+@media only screen and (min-width: 1545px) {
+  .blog-image-7 {
+    grid-column: auto / span 7;
+  }
+  .blog-image-1 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 2;
+  }
+}
+@media only screen and (max-width: 1211px) {
+  .blog-image-5 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-3 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+  }
+  .blog-image-7 {
+    grid-column: auto / span 8;
+    grid-row: auto / span 3;
+  }
+}
+@media only screen and (max-width: 877px) {
+  .blog-image-5 {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+  }
+  .blog-image-2 {
+    grid-column: auto / span 4;
+  }
+  .blog-image-3 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 1;
+  }
+  .blog-image-4 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-5 {
+    grid-column: auto / span 4;
+    /* grid-row: auto / span 2; */
+  }
+  .blog-image-7 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 2;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .blog-image-1 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-2 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-3 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-4 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-5 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-7 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+  .blog-image-7 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+  }
+}
 
 .flip {
   position: relative;
@@ -445,7 +523,34 @@ section {
   padding-bottom: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
+@media only screen and (max-width: 877px) {
+  .flip .front,
+  .flip .back {
+    font-size: 0.8rem;
+    line-height: 120%;
+    padding-bottom: 0.8rem;
+  }
+  .flip .front p,
+  .flip .back p {
+    font-size: 0.8rem;
+    line-height: 120%;
+    padding-bottom: 0.8rem;
+  }
+  .flip .front span,
+  .flip .back span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 0.8rem;
+    line-height: 120%;
+  }
 
+  .flip .front h1,
+  .flip .back h1 {
+    line-height: 120%;
+    padding-bottom: 0.8rem;
+  }
+}
 .text-shadow {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
     3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04),

@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="photos">
         <div
           ref={photo1Ref}
-          className="photo one"
+          className="photo photo-hero one"
           style={{
             backgroundImage:
               'url("https://www.xautoworld.com/wp-content/uploads/2021/06/Rimac-Efficient-Aerodynamics.jpg")',
@@ -41,7 +41,7 @@ const Hero = () => {
         ></div>
         <div
           ref={photo2Ref}
-          className="photo two"
+          className="photo photo-hero two"
           style={{
             backgroundImage:
               'url("https://media.istockphoto.com/id/168257494/photo/prototype-white-vehicle-located-in-a-wind-tunnel.jpg?s=612x612&w=0&k=20&c=HZR4ihn_FkIAhh97Ym7LTNHfqpy8rJeQNllFtS5Nq88=")',
@@ -49,7 +49,7 @@ const Hero = () => {
         ></div>
         <div
           ref={photo3Ref}
-          className="photo three"
+          className="photo photo-hero three"
           style={{
             backgroundImage:
               'url("https://t3.ftcdn.net/jpg/03/10/55/66/360_F_310556686_yOLtG2Us3PdgeobcwzSut3ONiZJzATby.jpg")',
@@ -57,7 +57,7 @@ const Hero = () => {
         ></div>
         <div
           ref={photo4Ref}
-          className="photo four"
+          className="photo photo-hero four"
           style={{
             backgroundImage:
               'url("https://media.istockphoto.com/id/123019189/photo/wind-tunnel.jpg?s=612x612&w=0&k=20&c=8cWO2hwFOqVTrbKnv6VJn9Fodai_LZZ5Q_x9yWNoZIY=")',
@@ -65,7 +65,7 @@ const Hero = () => {
         ></div>
         <div
           ref={photo5Ref}
-          className="photo five"
+          className="photo photo-hero five"
           style={{
             backgroundImage:
               'url("https://media.istockphoto.com/id/483557615/photo/wind-tunnel.jpg?s=612x612&w=0&k=20&c=KNlXH6W5bEwSJ8jC1GX6ZJ23uCwM6xjhIyaDTeLjRME=")',

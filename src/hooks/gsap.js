@@ -100,7 +100,7 @@ export const useGsapfeaturLeftShutterUnveil = (item, trig) => {
         ease: Expo.easeInOut,
         scrollTrigger: {
           start: "center bottom",
-          end: "bottom center",
+          end: "center top ",
           trigger: trig.current,
           toggleActions: "play reverse play reverse",
         },
@@ -123,7 +123,7 @@ export const useGsapfeaturRightShutterUnveil = (item, trig) => {
         ease: Expo.easeInOut,
         scrollTrigger: {
           start: "center bottom",
-          end: "bottom center",
+          end: "center top ",
           trigger: trig.current,
           toggleActions: "play reverse play reverse",
         },

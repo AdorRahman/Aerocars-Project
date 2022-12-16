@@ -150,7 +150,18 @@ section {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-
+@media only screen and (max-width: 667px) {
+  .photo {
+    height: 77%;
+    width: 222%;
+  }
+  .photos {
+    top: 0;
+    left: -3px;
+    right: 33px;
+    bottom: 0;
+  }
+}
 .photo.one {
   grid-column: 5;
   grid-row: 1;
@@ -240,6 +251,11 @@ section {
   position: relative;
   width: 50%;
 }
+@media only screen and (max-width: 667px) {
+  .gallery-item {
+    margin-bottom: 10rem;
+  }
+}
 .gallery-item-title {
   position: absolute;
   top: 10%;
@@ -267,6 +283,11 @@ section {
   background-size: cover;
   width: 100%;
   height: 100vh;
+}
+@media only screen and (max-width: 667px) {
+  .gallery-item-img {
+    height: 80vh;
+  }
 }
 .footer {
   text-align: center;

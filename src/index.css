@@ -343,6 +343,7 @@ section {
   .blog-image-7 {
     grid-column: auto / span 7;
   }
+
   .blog-image-1 {
     grid-column: auto / span 4;
     grid-row: auto / span 2;
@@ -359,7 +360,7 @@ section {
   }
   .blog-image-7 {
     grid-column: auto / span 8;
-    grid-row: auto / span 3;
+    grid-row: auto / span 2;
   }
 }
 @media only screen and (max-width: 877px) {
@@ -523,7 +524,7 @@ section {
   padding-bottom: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
-@media only screen and (max-width: 877px) {
+@media only screen and (max-width: 1211px) {
   .flip .front,
   .flip .back {
     font-size: 0.8rem;

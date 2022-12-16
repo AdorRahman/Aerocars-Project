@@ -92,7 +92,7 @@ export const useGsapfeaturLeftShutterUnveil = (item, trig) => {
     gsap.fromTo(
       el,
       {
-        height: "100%",
+        height: "101%",
       },
       {
         height: 0,
@@ -115,7 +115,7 @@ export const useGsapfeaturRightShutterUnveil = (item, trig) => {
     gsap.fromTo(
       el,
       {
-        width: "100%",
+        width: "101%",
       },
       {
         width: 0,

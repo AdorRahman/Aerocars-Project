@@ -80,8 +80,11 @@ section {
   width: 120%;
 }
 @media only screen and (max-width: 767px) {
-  .logo {
-    display: none;
+  .logo img {
+    height: 20px !important;
+  }
+  .logo-footer {
+    height: 30px;
   }
 }
 
@@ -182,6 +185,11 @@ section {
   align-items: center;
   gap: 10rem;
 }
+@media only screen and (max-width: 767px) {
+  .features {
+    gap: 2rem;
+  }
+}
 .features-text {
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -201,10 +209,10 @@ section {
 .feature-shutter-r {
   position: absolute;
   z-index: 1;
-  height: 100%;
-  width: 100%;
+  height: 101%;
+  width: 102%;
   top: 0;
-  left: 0;
+  left: -1px;
   right: 0;
   bottom: 0;
   background-color: white;

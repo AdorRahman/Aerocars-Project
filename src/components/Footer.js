@@ -10,10 +10,11 @@ const Footer = () => {
   return (
     <section className="footer wrapper" ref={footerRef}>
       <img
+        className="logo-footer"
         ref={footerHeadline}
         src="https://svgshare.com/i/oiq.svg"
         alt="aerocars"
-        height="60px"
+        height="55px"
       />
       <p>
         © {new Date().getFullYear()} All Rights Reserved | Powered by Aerocars

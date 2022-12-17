@@ -206,6 +206,12 @@ section {
   letter-spacing: 5px;
   font-weight: 500;
 }
+@media only screen and (max-width: 767px) {
+  .features-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
 .features img {
   width: 100%;
 }
@@ -458,7 +464,7 @@ section {
     grid-column: auto / span 3;
     grid-row: auto / span 2;
   }
-  .blog-image-7 {
+  .blog-image-6 {
     grid-column: auto / span 3;
     grid-row: auto / span 2;
   }

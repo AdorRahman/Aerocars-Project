@@ -56,7 +56,7 @@ const Blog = () => {
               class="front"
               style={{
                 backgroundImage:
-                  "url(https://images.unsplash.com/photo-1602777924012-f8664ffeed27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+                  "url(http://www.xoticcarrental.com/wp-content/uploads/2011/11/AMG-Race-Car-windtunnel.jpg",
               }}
             >
               <span class="text-shadow">Dec 13, 2022</span>
@@ -170,7 +170,7 @@ const Blog = () => {
               class="front"
               style={{
                 backgroundImage:
-                  "url(https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+                  "url(https://i.ytimg.com/vi/wP9xxEQAUPQ/maxresdefault.jpg",
               }}
             >
               <span class="text-shadow">Dec 13, 2022</span>

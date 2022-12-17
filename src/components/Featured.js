@@ -29,9 +29,11 @@ const Featured = () => {
           ></span>
         </div>
         <div className="featur-r">
-          <span className="features-text">Automotive Aerodynamics</span>
+          <span className="features-text">
+            Bugatti Centodieci wind tunnel test
+          </span>
           <img
-            src="https://images.pexels.com/photos/4732652/pexels-photo-4732652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://performancedrive.com.au/wp-content/uploads/2021/09/2021-Bugatti-Centodieci-wind-tunnel-testing.jpg"
             alt=""
           />
           <span

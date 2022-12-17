@@ -56,7 +56,7 @@ const Blog = () => {
               class="front"
               style={{
                 backgroundImage:
-                  "url(http://www.xoticcarrental.com/wp-content/uploads/2011/11/AMG-Race-Car-windtunnel.jpg",
+                  "url(https://www.environmentalengineering.org.uk/wp-content/uploads/2018/12/Wind-tunnel-testing-at-the-Mercedes-Sindelfingen-test-facility.jpg)",
               }}
             >
               <span class="text-shadow">Dec 13, 2022</span>

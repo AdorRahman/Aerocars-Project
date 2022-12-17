@@ -58,7 +58,7 @@ export const useGsapPhotoDropping = (arr) => {
         scale: 1,
         duration: 1.5,
         stagger: 0.5,
-        delay: 2.7,
+        delay: 2.2,
         ease: Expo.easeInOut,
       }
     );
@@ -73,7 +73,7 @@ export const useGsapPhotoLevitate = (arr, trig) => {
       el,
       { y: 0 },
       {
-        y: "-50%",
+        y: "-60%",
         ease: Expo.easeInOut,
         scrollTrigger: {
           trigger: trig.current,

@@ -56,7 +56,7 @@ const Blog = () => {
               class="front"
               style={{
                 backgroundImage:
-                  "url(https://www.environmentalengineering.org.uk/wp-content/uploads/2018/12/Wind-tunnel-testing-at-the-Mercedes-Sindelfingen-test-facility.jpg)",
+                  "url(https://www.cnet.com/a/img/resize/7c897a73c59b20311ebbda309bd763a996a7202e/hub/2020/07/14/d35b112f-932b-48a3-a2e1-f5ee0991113f/20c0264-061.jpg?auto=webp&width=1200)",
               }}
             >
               <span class="text-shadow">Dec 13, 2022</span>

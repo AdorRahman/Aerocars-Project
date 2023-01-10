@@ -14,7 +14,7 @@ const images = [
   },
   {
     id: 3,
-    src: "https://funart.pro/uploads/posts/2019-09/1569764932_mercedes-amg-gt-r-59.jpg",
+    src: "https://wallpaper.caricos.com/2017-Mercedes-AMG-GT-R---Aerodynamics-131063-2560x1440.jpg",
     title: "The Introduction of Wind Tunnels",
     category: "WIND TUNNELS & AIR RESISTANCE",
   },
